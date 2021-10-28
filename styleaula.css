@@ -1,0 +1,81 @@
+body {
+}
+/*
+#paragrafos {
+	background:red;
+}
+*/
+
+#principal {
+	color: blue;
+}
+
+#Titulo{
+	color: #10d6e8;
+}
+
+.texto_verde {
+	color: green;
+}
+
+/* 	UNIDADE DE MEDIDA FIXAS */
+
+#cm{
+	background-color: blue;
+width: 1cm;
+height: 1cm;
+}
+
+#mm {
+	background-color: red;
+width: 5mm;
+height: 5mm
+}
+
+#in {
+	background-color: green;
+width: 1in;
+height: 1in
+}
+
+#px {
+	background-color: #fcf407;
+width: 10px;
+height: 10px;
+}
+
+#pt {
+	background-color: #00fcf4;
+width: 10pt;
+height: 10pt;
+}
+
+#pc {
+	background-color: blue;
+width: 10pc;
+height: 10pc;
+}
+
+/*  Unidades de medida - referência  */
+
+.container {
+	font-size: 20px;
+}
+
+.inside {
+	font-size: 100%;
+}
+
+/*  Margin e Padding  */
+
+#base {
+	height: 10px;
+	background-color: red;
+	padding-top: 10px;
+}
+#container2 {
+	background-color: blue;
+	color:white;
+	margin-top: 10px;
+	margin-left: 10px;
+}

@@ -1,0 +1,120 @@
+
+/* BORDAS */
+
+body {
+	padding: ;
+	margin: ;
+}
+
+.borda{
+	border-width: 5px;
+	border-color: red;
+	border-radius: 50%;
+}
+
+.quadrado {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.dotted {border-top-style: dotted;}
+.dashed {border-style: dashed}
+.solid {border-style: solid;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+
+/******  BOX Model  ******/
+
+.container {
+	background-color: red;
+	padding: 5px;
+	border: 5px solid blue;
+	margin: 10px;
+}
+
+.content {
+	background-color: #ddd;
+	outline: 3px solid green;
+	padding: 5px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 10px solid blue;
+	padding: 10px;
+
+	box-sizing: border-box;
+
+}
+
+.square2 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	
+}
+
+/******  Ajustes de Texto  ******/
+
+p{
+	color: red;
+	text-indent: 15px;
+
+}
+
+	/******  FONTES   ******/	
+
+.fontedale{
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+
+	/******  ESTILO DE LINK   ******/
+
+	.links{
+		text-decoration: none;
+		color:red;
+		padding: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-radius: 8px;
+		border: 2px solid red;
+	}
+
+	.links:hover {
+		background: red;
+		color: white;
+	}
+
+	/****** LISTAS ******/
+
+
+	ul{
+		list-style-image: url("insta.png");
+		list-style-position: inside;
+		margin: 0;
+		padding: 10px;
+
+		background-color: #f3e;
+	}
+
+	ol{
+		list-style-type: upper-alpha;
+		list-style-position: inside;
+		margin: 0;
+		padding: 10px;
+
+		background-color: #59e;
+	}
+
+	li {
+		border:1px solid;
+		background-color: yellow;
+		margin: 5px;
+		padding: 5px;
+		border-radius: 5px;
+	}

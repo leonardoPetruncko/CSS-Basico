@@ -1,0 +1,38 @@
+
+body{
+	background-image: url("backgorund.png");
+	padding: 5px;
+}
+
+p{
+	color: #000000;
+	text-indent: 30px;
+}
+
+.fonte{
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+
+ul{
+		list-style-image: url("insta.png");
+		list-style-position: inside;
+		margin: 0;
+		padding: 0;
+}
+
+.twitter {
+		list-style-image: url("Twitter.png");
+		list-style-position: inside;
+		margin: 0;
+		padding: 0;
+}
+
+.youtube {
+		list-style-image: url("Youtube.png");
+		list-style-position: inside;
+		margin: 0;
+		padding: 0;
+}
+		
